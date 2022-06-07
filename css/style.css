@@ -1,0 +1,89 @@
+/* Variables */
+:root {
+  --icon-size: 3.4rem;
+  --overlay: rgba(0, 0, 0, 0.6);
+  --font-color: rgb(43, 43, 43);
+}
+
+/* Common */
+#get-started-section,
+#course-section,
+#about-header-section,
+#services-header-section,
+#blog-header-section,
+#contact-header-section {
+  background-size: cover;
+  background-attachment: fixed;
+  background-position-x: center;
+}
+
+.overlay {
+  background-color: var(--overlay);
+}
+
+/* Header section */
+.nav-item {
+  padding-right: 1.2em;
+}
+.nav-item:last-child {
+  padding-right: 0;
+}
+
+/* Home section */
+.carousel-item {
+  min-height: 450px;
+}
+
+.img-1 {
+  background-image: url(../assets/image1.jpeg);
+}
+.img-2 {
+  background-image: url(../assets/image2.jpeg);
+}
+.img-3 {
+  background-image: url(../assets/image3.jpeg);
+}
+
+/* Box section */
+.fa-gears,
+.fa-cloud,
+.fa-cart-plus,
+.fa-play,
+.fa-envelope,
+.fa-car,
+.fa-tree,
+.fa-charging-station {
+  font-size: var(--icon-size);
+  margin-bottom: 0.2em;
+}
+
+/* Get started section */
+#get-started-section {
+  background-image: url(../assets/markus-spiske-AXc2uwl4Cik-unsplash.jpg);
+}
+
+/* Course secoin */
+#course-section {
+  background-image: url(../assets/youtube-app-logo-picjumbo-com.jpg);
+}
+
+/* About header section */
+#about-header-section {
+  background-image: url(../assets/image1.jpeg);
+}
+
+/* Services header section & Contact header section */
+#services-header-section,
+#contact-header-section {
+  background-image: url(../assets/image3.jpeg);
+}
+
+/* Faq section */
+#faq-section h5:hover {
+  text-decoration: underline;
+}
+
+/* Blog header section */
+#blog-header-section {
+  background-image: url(../assets/image2.jpeg);
+}
